@@ -22,13 +22,13 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 23
     }
 }
 
 dependencies {
-    implementation "androidx.startup:startup-runtime:1.1.1"
+//    implementation "androidx.startup:startup-runtime:1.1.1"
 }
